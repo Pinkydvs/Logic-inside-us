@@ -4,7 +4,7 @@ let favoriteBooks = {title: ["A Game of Thrones", "The Hunger Games"], author: [
                      "Primrose Everdeen", "Peeta Mellark", "Haymitch Abernathy"]};
 //Both book titles appear in the terminal by using a for...of loop and one console.log() inside of it.
 for (let title of favoriteBooks){
- console.log(title);
+ console.log(title[i]);
 }
 
 //console.log(favoriteBooks.title)
