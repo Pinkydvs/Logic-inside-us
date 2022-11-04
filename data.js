@@ -4,7 +4,7 @@ let favoriteBooks = {title: ["A Game of Thrones", "The Hunger Games"], author: [
                      "Primrose Everdeen", "Peeta Mellark", "Haymitch Abernathy"]};
 //Both book titles appear in the terminal by using a for...of loop and one console.log() inside of it.
 for (let title of favoriteBooks){
- console.log(title[i]);
+ console.log(title);
 }
 
 //console.log(favoriteBooks.title)
@@ -13,3 +13,10 @@ for (let title of favoriteBooks){
 for (let i=0; i<(favoriteBooks.author).length; i++)
 {console.log(favoriteBooks.author[i]);
 }
+
+
+for (let i=0; i<(favoriteBooks.year).Length; i++) 
+{ if (favoriteBooks.year[i]>=2000)
+                {console.log(favoriteBooks.title[i]+"is newer than 2000");            
+                }
+ }               
