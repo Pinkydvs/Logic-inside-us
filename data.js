@@ -27,6 +27,6 @@ for (let j=0; j<(favoriteBooks.isNewerThan2000).length; j++)
     {if (favoriteBooks.isNewerTham2000[j]==="True")
           {console.log("This book is newer than 2000"+favoriteBooks.title[j]);
      else  
-          {console.log("This book is older than 2000"+favortieBooks.title[j]);
+          {console.log("This book is older than 2000"+favoriteBooks.title[j]);
           }
      }     
