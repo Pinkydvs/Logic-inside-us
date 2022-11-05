@@ -25,8 +25,18 @@ if (favoriteBooks.isNewerThan2000[1]==="True")
 //newer/older
 for (let j=0; j<(favoriteBooks.isNewerThan2000).length; j++)
     {if (favoriteBooks.isNewerTham2000[j]==="True")
-          {console.log("This book is newer than 2000"+favoriteBooks.title[j]);
+          {console.log("This book is newer than 2000"+" "+favoriteBooks.title[j]);
      else  
-          {console.log("This book is older than 2000"+favoriteBooks.title[j]);
+          {console.log("This book is older than 2000"+" "+favoriteBooks.title[j]);
           }
      }     
+
+//newer/older
+for (let k=0; k<(favoriteBooks.year).length; k++) 
+    {if (favoriteBooks.year[k]<=2000)
+                {console.log("The book is older than 2000"+" "+favoriteBooks.title[k]);
+                 }
+    else
+                {console.log('The book is newer than 2000'+" "+favoriteBooks.title[k]);
+                }
+    }               
