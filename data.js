@@ -15,11 +15,18 @@ for (let i=0; i<(favoriteBooks.author).length; i++)
 }
 
 //The title of the first book appears in the terminal if and only if the isNewerThan2000 key's value is true
-let j=0;
-if (favoriteBooks.isNewerThan2000[j]==="True")
-    {console.log(favoriteBooks.title[j]);
-    j++;
+if (favoriteBooks.isNewerThan2000[0]==="True")
+    {console.log(favoriteBooks.title[0]);
     }
-else 
-    {console.log(favoriteBooks.title[j]);
-    }
+if (favoriteBooks.isNewerThan2000[1]==="True")
+    {console.log(favoriteBooks.title[1]);
+    } 
+
+//newer/older
+for (let j=0; j<(favoriteBooks.isNewerThan2000).length; j++)
+    {if (favoriteBooks.isNewerTham2000[j]==="True")
+          {console.log("This book is newer than 2000"+favoriteBooks.title);
+     else  
+          {console.log("This book is older than 2000"+favortieBooks.title);
+          }
+     }     
